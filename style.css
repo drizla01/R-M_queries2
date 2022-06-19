@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+.top-showcase {
+  background: url("./images/bg-hero-mobile.svg");
+  position: relative;
+}
+.top-showcase .nav img {
+  width: 90px;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}
+.top-showcase .nav a {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+
+.showcase1,
+.showcase2,
+.showcase3,
+.showcase4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  align-items: center;
+}
+
+img {
+  width: 60%;
+  height: auto;
+}

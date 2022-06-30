@@ -10,12 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@200;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@200;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
     <title>Responsiveness and Media query</title>
   </head>
@@ -23,22 +17,29 @@
     <main>
       <div>
         <section class="top-showcase">
-          <div class="nav">
-            <img src="./images/logo.svg" alt="huddle" />
-            <a href="#">Try it Free</a>
-          </div>
+          <nav class="nav-head">
+            <ul>
+              <li><img src="./images/logo.svg" alt="huddle" /></li>
+              <li><a id="try-it" href="#">Try it Free</a></li>
+            </ul>
+          </nav>
           <div class="showcase1">
             <div>
-              <h2>Build The Community Your Fans Will Love</h2>
+              <h1>
+                Build The Community <br />
+                Your Fans Will Love
+              </h1>
               <br />
               <p>
-                Huddle re-imagines the way we build communities. You have a
-                voice, but so does your audience. Create connections with your
-                users as you engage in genuine discussion.
+                Huddle re-imagines the way we build communities. You have <br />
+                a voice, but so does your audience. Create connections with
+                <br />
+                your users as you engage in genuine discussion.
               </p>
+              <br />
               <a href="#"> Get Started For Free</a>
             </div>
-            <div>
+            <div class="showcase1-img">
               <img
                 src="./images/illustration-mockups.svg"
                 alt="illustration-mockups"
@@ -52,12 +53,12 @@
             <h2>Grow Together</h2>
             <br />
             <p>
-              Generate meaningful discussions with your audience and build a
-              strong, loyal community. Think of the insightful conversations you
-              miss out with a feedback form.
+              Generate meaningful discussions with your audience and <br />
+              build a strong, loyal community. Think of the insightful <br />
+              conversations you miss out with a feedback form.
             </p>
           </div>
-          <div>
+          <div class="showcase2-img">
             <img
               src="./images/illustration-grow-together.svg"
               alt="illustration-grow-together"
@@ -66,7 +67,7 @@
         </section>
 
         <section class="showcase3">
-          <div>
+          <div class="showcase3-img">
             <img
               src="./images/illustration-flowing-conversation.svg"
               alt="illustration-flowing-conversation"
@@ -76,10 +77,12 @@
             <h2>Flowing conversations</h2>
             <br />
             <p>
-              You wouldn't paginate a conversation in real life, so why do it
-              online? Our threads have just-in-time loading for a more natural
-              flow.
+              You wouldn't paginate a conversation in real life, so why do
+              <br />
+              it online? Our threads have just-in-time loading for a more <br />
+              natural flow.
             </p>
+            <br />
             <a href="#"> Get Started For Free</a>
           </div>
         </section>
@@ -89,19 +92,51 @@
             <h2>Your Users</h2>
             <br />
             <p>
-              It takes no time at all to integrate Huddle with your app's
-              authentication solution. This means,once signed in to your app,
-              your users can start chatting immediately.
+              It takes no time at all to integrate Huddle with your app's <br />
+              authentication solution. This means,once signed in to <br />
+              your app, your users can start chatting immediately.
             </p>
           </div>
-          <div>
+          <div class="showcase4-img">
             <img
               src="./images/illustration-your-users.svg"
               alt="illustration-your-users"
             />
           </div>
+          <div class="in-between">
+            <h3>Ready To Build Your Community?</h3>
+            <br /><br />
+            <a href="#"> Get Started For Free</a>
+          </div>
         </section>
       </div>
     </main>
+    <footer class="footer-col">
+      <p><img src="./images/logo.svg" alt="Huddle" /></p>
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      <div class="left-col">
+        <ul>
+          <li>
+            <i class="fa fa-map-marker" aria-hidden="true">
+              Lorem ipsum dolor, sit amet consectetur .<br />
+              adipisicing elit Veniam qui non .<br />
+              eligendi nisi enim iusto velit nulla.
+            </i>
+          </li>
+          <li>+1-353-533-5325</li>
+          <li>example@huddle.com</li>
+        </ul>
+        <ul>
+          <li>About Us</li>
+          <li>What We Do</li>
+          <li>FAQ</li>
+        </ul>
+        <ul>
+          <li>Career</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

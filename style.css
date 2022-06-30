@@ -146,6 +146,8 @@ img {
   margin-bottom: -50px;
   padding: 90px;
   border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.19),
+    6px 6px 20px rgba(0, 0, 0, 0.23);
 }
 .showcase4 .in-between h3 {
   margin: 0 0 2rem;
@@ -165,6 +167,7 @@ img {
   padding-top: 30px;
   background-color: hsl(192, 100%, 9%);
   color: #fff;
+  padding-top: 30px;
 }
 
 .footer-col img {
@@ -179,11 +182,22 @@ img {
 
 .footer-col .left-col {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 3rem;
   margin-left: 30px;
+  margin-top: 70px;
 }
 .footer-col li {
   line-height: 1.9;
   list-style: none;
+}
+.footer-col .left-col .icon {
+  display: flex;
+}
+.footer-col .copy {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: right;
+  padding-right: 20px;
 }

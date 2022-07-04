@@ -176,7 +176,7 @@ img {
   position: relative;
   top: 8%;
   left: 6%;
-  background: #fff;
+  filter: brightness(0) invert(1);
   opacity: 1;
 }
 
